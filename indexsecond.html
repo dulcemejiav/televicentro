@@ -1,0 +1,382 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Framework7 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/css/framework7.min.css" rel="stylesheet"> 
+	<link href="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/css/f7-icons.css"rel=stylesheet>
+	<link href="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/css/material-icons.css" rel="stylesheet">
+	<link href="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/css/style.css" rel="stylesheet">
+	
+</head>
+	
+<body class="color-theme-blue">
+	
+	 <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+			<section class="panel panel-left panel-cover">
+				<div class="block bg-perfil">
+					<i class="icono-perfil"><img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/dulce.png" class="img-responsive imagecir" alt=""></i>
+					<b>Dulce Mejía</b><br>
+
+				</div>
+
+				<div class="list media-list margen-cero backy">
+					<ul>
+						
+					  <li>
+						<a class="item-content item-link">
+						  <div class="item-media">
+							  <i class="material-icons">home</i>
+						  </div>
+							
+						  <div class="item-inner">Inicio</div>
+					    </a>
+					  </li>
+						
+					  <li>
+					   <a class="item-content item-link">
+						  <div class="item-media">
+							  <i class="material-icons">tablet_android</i>
+						  </div>
+						   
+						   <div class="item-inner">En Vivo</div>
+						</a>
+					  </li>
+						
+					  <li>
+					   <a class="item-content item-link">
+						  <div class="item-media">
+							  <i class="material-icons">tablet_android</i>
+						  </div>
+						   
+						   <div class="item-inner">Noticias</div>
+						</a>
+					  </li>
+						
+					  <li>
+					   <a class="item-content item-link">
+						  <div class="item-media">
+							  <i class="material-icons">play_circle_outline</i>
+						  </div>
+						   
+						   <div class="item-inner">TVC Play</div>
+					   </a>
+					  </li>
+						
+					  <li >
+					   <a class="item-content item-link">
+						  <div class="item-media">
+							  <i class="material-icons">tv</i>
+						  </div>
+						   
+						   <div class="item-inner">Programas</div>
+					   </a>
+					  </li>
+						
+						
+					  <li>
+					   <a class="item-content item-link">
+						  <div class="item-media">
+							  <i class="material-icons">accessibility_new</i>
+						  </div>
+						   
+						   <div class="item-inner">Deportes</div>
+					   </a>
+					  </li>
+						
+					  <li class="margen-list">
+					   	<a class="item-content item-link">
+						   <div class="item-media">
+							   <i class="material-icons">settings</i>
+						   </div>
+						   
+						   <div class="item-inner">Settings</div>
+					   	</a>
+					  </li>
+	  				</ul>
+	
+				</div>
+			</section>
+		
+      <!-- Your main view, should have "view-main" class -->
+      <section class="view view-main view-init">
+		  
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+			  <div class="navbar-inner">
+				<div class="left">
+					<a class="icon-only link panel-open " data-panel="left">
+						<i class="icon material-icons"> menu</i></a>
+				</div>
+				  <div class="title">Inicio</div>
+				
+			  </div>
+          </div>
+         
+          <!-- Scrollable page content -->
+          <article class="page-content">
+			
+			  
+			<div id="sec-slider">
+				
+				  <!-- Slider container -->
+				<div class="swiper-container swiper-init" data-speed="400" data-space-between="0" data-pagination='{"el": ".swiper-pagination"}'>
+					
+				<!-- Slides wrapper -->
+					<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/Home1.jpeg" alt="" class="img-responsive">
+					</div>
+					
+					<div class="swiper-slide">
+						<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homesilderricolazaro.jpeg" alt="" class="img-responsive">
+					</div>
+					
+					<div class="swiper-slide">
+						<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homesilelseñordeloscielos.jpeg" alt="" class="img-responsive">
+					</div>
+						
+					<div class="swiper-slide">
+						<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homesilderjosejose.jpeg" alt="" class="img-responsive">
+					</div>
+
+					... other slides ...
+				</div>
+					
+				<!-- Pagination, if required -->
+				<div class="swiper-pagination"></div>
+				</div>
+			  
+			</div>
+				  
+			<section id="sec-categorias" class="block">
+				
+				<a href="/envivo/">
+				
+				<div class="block-title">
+				  	En Vivo
+				</div>
+					
+					<div id="sec-slider">
+				
+							<!-- Slider container -->
+						<div class="swiper-container swiper-init" data-speed="400" data-space-between="0" data-pagination='{"el": ".swiper-pagination"}'>
+					
+						<!-- Slides wrapper -->
+							<div class="swiper-wrapper">
+						<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivohome1.jpg" alt="" class="img-responsive">
+							</div>
+						
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivo1.jpeg" alt="" class="img-responsive">
+							</div>
+								
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivo2.jpeg" alt="" class="img-responsive">
+							</div>
+								
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivo3.jpeg" alt="" class="img-responsive">
+							</div>
+
+							... other slides ...
+							</div>
+					
+						<!-- Pagination, if required -->
+							<div class="swiper-pagination"></div>
+						</div>
+			  
+					</div>
+				</a>
+					
+				<a href="/noticias/">
+				
+				<div class="block-title">
+				  	Noticias
+				</div>
+					
+					<div id="sec-slider">
+				
+							<!-- Slider container -->
+						<div class="swiper-container swiper-init" data-speed="400" data-space-between="0" data-pagination='{"el": ".swiper-pagination"}'>
+					
+						<!-- Slides wrapper -->
+							<div class="swiper-wrapper">
+						<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homenoticias1.jpeg" alt="" class="img-responsive">
+							</div>
+						
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homenoticias2.jpeg" alt="" class="img-responsive">
+							</div>
+								
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homenoticias3.jpeg" alt="" class="img-responsive">
+							</div>
+
+							... other slides ...
+							</div>
+					
+						<!-- Pagination, if required -->
+							<div class="swiper-pagination"></div>
+						</div>
+			  
+					</div>
+				</a>
+				
+				<a href="/tvcplay/">
+				
+				<div class="block-title">
+				  	TVC Play
+				</div>
+					
+					<div id="sec-slider">
+				
+							<!-- Slider container -->
+						<div class="swiper-container swiper-init" data-speed="400" data-space-between="0" data-pagination='{"el": ".swiper-pagination"}'>
+					
+						<!-- Slides wrapper -->
+							<div class="swiper-wrapper">
+						<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homesilelseñordeloscielos.jpeg" alt="" class="img-responsive">
+							</div>
+						
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/homesilderjosejose.jpeg" alt="" class="img-responsive">
+							</div>
+								
+							<div class="swiper-slide">
+								<img src="" alt="img/home" class="img-responsive">
+							</div>
+
+							... other slides ...
+							</div>
+					
+						<!-- Pagination, if required -->
+							<div class="swiper-pagination"></div>
+						</div>
+			  
+					</div>
+				</a>
+				
+				<a href="/programas/">
+				
+				<div class="block-title">
+				  	Programas
+				</div>
+					
+					<div id="sec-slider">
+				
+							<!-- Slider container -->
+						<div class="swiper-container swiper-init" data-speed="400" data-space-between="0" data-pagination='{"el": ".swiper-pagination"}'>
+					
+						<!-- Slides wrapper -->
+							<div class="swiper-wrapper">
+						<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivohome1.jpg" alt="" class="img-responsive">
+							</div>
+						
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivohome2.jpg" alt="" class="img-responsive">
+							</div>
+
+							... other slides ...
+							</div>
+					
+						<!-- Pagination, if required -->
+							<div class="swiper-pagination"></div>
+						</div>
+			  
+					</div>
+				</a>
+				
+				<a href="/deportes/">
+				
+				<div class="block-title">
+				  	Deportes
+				</div>
+					
+					<div id="sec-slider">
+				
+							<!-- Slider container -->
+						<div class="swiper-container swiper-init" data-speed="400" data-space-between="0" data-pagination='{"el": ".swiper-pagination"}'>
+					
+						<!-- Slides wrapper -->
+							<div class="swiper-wrapper">
+						<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivohome1.jpg" alt="" class="img-responsive">
+							</div>
+						
+							<div class="swiper-slide">
+								<img src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/img/envivohome2.jpg" alt="" class="img-responsive">
+							</div>
+
+							... other slides ...
+							</div>
+					
+						<!-- Pagination, if required -->
+							<div class="swiper-pagination"></div>
+						</div>
+			  
+					</div>
+				</a>
+				
+			
+		</div>
+				
+			
+				  
+			
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+		</article>	  
+        </div>
+      </section>
+    </div>
+	
+	
+	
+	
+	
+	
+	
+	<script src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/js/framework7.min.js"></script>
+	<script src="file:///C|/Users/Dulce/OneDrive/Document/Clases UNITEC-IV año/2018/Diseño Web II/appdiseñowebII/js/my-app.js"></script>
+</body>
+</html>
